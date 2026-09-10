@@ -1,11 +1,19 @@
 # git
 
+Instalar o Git em Distro baseadas em Arch:
+
 sudo pacman -S git
 
-git clone "url do repositorio q vc quer baixar"
+Clonar o repositório do pacote:
 
-cd "nome do pacote"
+git clone "url_do_repositorio"
 
-makepkg -si *pra baixar 
+Entrar na pasta criada:
+
+cd "nome_da_pasta"
+
+Compilar e instalar o pacote:
+
+makepkg -si
 
 pronto :)
